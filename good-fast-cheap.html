@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Good and Fast and Cheap?</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="flex-container">
+      <div class="flex-1">
+        <h2>Good and Fast and Cheap?</h2>
+      </div>
+      <div class="flex-2">
+        <table>
+          <tr>
+            <td>
+              <input
+                type="range"
+                id="slider1"
+                min="1"
+                max="2"
+                value="1"
+                class="slider"
+                onclick="change_slider1()"
+                oninput="change_slider1()"
+              />
+            </td>
+            <td>GOOD</td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="range"
+                id="slider2"
+                min="1"
+                max="2"
+                value="1"
+                class="slider"
+                onclick="change_slider2()"
+                oninput="change_slider2()"
+              />
+            </td>
+            <td>FAST</td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="range"
+                id="slider3"
+                min="1"
+                max="2"
+                value="1"
+                class="slider"
+                onclick="change_slider3()"
+                oninput="change_slider3()"
+              />
+            </td>
+            <td>CHEAP</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="good-fast-cheap.js"></script>
+  </body>
+</html>
